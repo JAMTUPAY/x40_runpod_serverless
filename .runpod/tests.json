@@ -1,0 +1,11 @@
+{
+  "tests": [
+    {
+      "name": "Healthcheck",
+      "request": { "method": "GET", "path": "/health" },
+      "assert": [
+        { "jsonPath": "$.ok", "equals": true }
+      ]
+    }
+  ]
+}

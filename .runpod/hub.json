@@ -1,0 +1,14 @@
+{
+  "name": "X-40 ResearchCore v0.6 (HTTP)",
+  "type": "http",
+  "description": "Quantum Attention™ Anchors API with energy audit (NVML).",
+  "containerPort": 8000,
+  "healthCheckPath": "/health",
+  "runtime": "nvidia",
+  "gpuClass": "T4|L4|A10|A100|H100",
+  "env": [
+    { "key": "LAB_API_KEY", "value": "aeonx40", "required": false }
+  ],
+  "readme": "README.md",
+  "startCommand": "./start.sh"
+}
