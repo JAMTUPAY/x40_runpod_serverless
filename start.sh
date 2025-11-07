@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
 set -e
-# LAB_API_KEY is optional; uvicorn is already in the base image
+# Your base image jamtupay/x40-lab:0.6 already contains the app and deps.
+# This script just starts the same FastAPI server on port 8000.
 exec uvicorn service_beta.main_v051:app --host 0.0.0.0 --port 8000 --workers 1
