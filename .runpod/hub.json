@@ -10,5 +10,6 @@
     { "key": "LAB_API_KEY", "value": "aeonx40", "required": false }
   ],
   "readme": "README.md",
-  "startCommand": "./start.sh"
+  "startCommand": "./start.sh",
+  "handler": ".runpod/handler.py"
 }
