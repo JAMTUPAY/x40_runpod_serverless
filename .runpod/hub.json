@@ -11,5 +11,5 @@
   ],
   "readme": "README.md",
   "startCommand": "./start.sh",
-  "handler": ".runpod/rp_handler.py"
+  "handler": "handler.py"
 }
